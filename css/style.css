@@ -58,15 +58,15 @@ a:hover{
 }
 
 .image{
-	width: 60%;
+	width: 65%;
 	border:10px solid #00000030;
 	position: relative;
-	top:60px;
+	top:70px;
 }
 #Goodware h2{
 	font-size: 30px;
 	text-align: center;
-	margin-top: 130px;
+	margin-top: 160px;
 	color:#3b3b3b;
 	font-family: "Rockwell";
 	font-weight: bold;
