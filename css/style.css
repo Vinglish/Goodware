@@ -6,9 +6,7 @@ body{
 header{
 	
 	background: #e45151;
-	height: 80vh;
 	border-top: 13px solid black;
-	border-bottom: 13px solid black;
 	font-weight: bold;
 
 }
@@ -52,16 +50,22 @@ a:hover{
 	cursor: pointer;
 	color:black;
 }
-#preslide{
-	text-align: center;
+.imageSection{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #e45151;
+	border-bottom: 13px solid black;
 
 }
 
+
 .image{
-	width: 65%;
-	border:10px solid #00000030;
 	position: relative;
-	top:30px;
+	top: 100px;
+	width: 70%;
+	border:10px solid #00000030;
+	
 }
 #Goodware h2{
 	font-size: 30px;
@@ -89,15 +93,16 @@ a:hover{
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .block{
 	margin:20px;
-	width: 20%;
 	line-height: 1.8;
+	width: 270px;
 }
 .block .img{
 	background: black;
-	width: 100%;
+	width: 95%;
 	height: 155px;
 	border:10px solid #ffffff99;
 }
@@ -149,9 +154,6 @@ footer{
 	margin:10px;
 	width: 21%;
 	text-decoration: none;
-}
-.secondBlock{
-	font-size: 15px;
 }
 .secondBlock a{
 	color: red;

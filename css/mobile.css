@@ -1,0 +1,51 @@
+@media screen and (max-width: 1350px){
+	
+	#general{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.firstBlock{
+		width: 400px;
+
+	}
+	.secondBlock{
+		width: 40%;
+	}
+	.thirdBlock{
+		width: 40%;
+	}
+	
+}
+@media screen and (max-width:1300px){
+	.blok3{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	
+}
+
+@media screen and (max-width: 580px){
+	.upper{
+		flex-direction: column;
+	}
+	.logoName{
+		text-align: center;
+	}
+	ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.image{
+		display: none;
+	}
+
+
+}
+@media screen and (max-width: 400px){
+	#Goodware h2{
+		font-size: 20px;
+	}
+}
