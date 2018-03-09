@@ -102,7 +102,6 @@ a:hover{
 }
 .block .img{
 	background: black;
-	width: 95%;
 	height: 155px;
 	border:10px solid #ffffff99;
 }
@@ -127,12 +126,15 @@ footer{
 	padding-top: 20px;
 	color:white;
 	display: flex;
-	justify-content: center
+	justify-content: center;
+	flex-wrap: wrap;
 
 	}
 .firstBlock{
 	margin:10px;
-	width: 21%;
+	width:300px;
+	
+	
 }
 .firstBlock h3{
 	font-weight: bold;
@@ -151,8 +153,8 @@ footer{
 	font-style: italic; 
 }
 .secondBlock{
-	margin:10px;
-	width: 21%;
+	margin: 10px;
+	width: 300px;
 	text-decoration: none;
 }
 .secondBlock a{
@@ -167,8 +169,8 @@ footer{
 
 }
 .thirdBlock{
-	width:21%;
-	margin: 10px;
+	margin:10px;
+	width: 300px;
 }
 .thirdBlock h3{
 	margin:0;
