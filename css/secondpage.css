@@ -92,12 +92,13 @@ footer{
 	padding-top: 20px;
 	color:white;
 	display: flex;
-	justify-content: center
+	justify-content: center;
+	flex-wrap: wrap;
 
 	}
 .firstBlock{
 	margin:10px;
-	width: 21%;
+	width: 300px;
 }
 .firstBlock h3{
 	font-weight: bold;
@@ -117,7 +118,7 @@ footer{
 }
 .secondBlock{
 	margin:10px;
-	width: 21%;
+	width: 300px;
 	text-decoration: none;
 }
 .secondBlock{
@@ -135,7 +136,7 @@ footer{
 
 }
 .thirdBlock{
-	width:21%;
+	width:300px;
 	margin: 10px;
 }
 .thirdBlock h3{
@@ -161,3 +162,9 @@ footer{
 
 }
 
+
+@media screen and (max-width:740px){
+	nav{
+		display: none;
+	}
+}
